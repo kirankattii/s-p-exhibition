@@ -24,7 +24,7 @@ function Gallery2({ images2 }) {
 				{images2.map((img, index) => (
 					<a href={img}>
 						<img
-							alt="img1"
+							alt=""
 							src={img}
 						/>
 					</a>

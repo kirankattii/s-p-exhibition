@@ -56,7 +56,7 @@ const Footer = () => {
 				</ul>
 			</div>
 			<div className={styles.copyright}>
-				<p></p>
+				<p>COPYRIGHT © 2024 SP Exhibition Services LLP, All Rights Reserved.</p>
 			</div>
 		</div>
 	)
