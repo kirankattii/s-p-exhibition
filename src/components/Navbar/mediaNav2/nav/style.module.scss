@@ -5,13 +5,13 @@
 	// 	rgba(226, 231, 213, 1) 0%,
 	// 	rgba(167, 182, 118, 1) 60%
 	// );
-	background: #b9dcf0;
+	background: #000000;
 	// background: rgba(167, 182, 118, 1);
 	position: fixed;
 	right: 0;
 	top: 0;
-	color: #f08424;
-	border-left: 3px solid #fff;
+	color: var(--gold);
+	// border-left: 3px solid #fff;
 	z-index: 50;
 
 	.body {
@@ -31,7 +31,7 @@
 
 			.header {
 				color: white;
-				color: #6b2d25;
+				color: var(--gold);
 
 				border-bottom: 1px solid #fff;
 				text-transform: uppercase;
@@ -42,7 +42,7 @@
 			a {
 				text-decoration: none;
 				color: white;
-				color: #6b2d25;
+				color: var(--gold);
 
 				font-weight: 300;
 			}

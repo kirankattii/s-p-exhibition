@@ -1,4 +1,6 @@
-.container {}
+.container {
+  margin-bottom: 50px;
+}
 
 .container h1 {
   font-size: 40px;
