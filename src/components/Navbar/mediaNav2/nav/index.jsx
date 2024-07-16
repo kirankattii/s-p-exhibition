@@ -17,7 +17,7 @@ const navItems = [
 		href: "/about-us",
 	},
 	{
-		title: "Gallary",
+		title: "Gallery",
 		href: "/gallary",
 	},
 
