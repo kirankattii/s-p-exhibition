@@ -1,5 +1,7 @@
 .container {
   margin-bottom: 50px;
+  font-family: 'Gotham';
+
 }
 
 .container h1 {
@@ -10,4 +12,37 @@
   margin-top: 50px;
   font-weight: 300;
   letter-spacing: 4px;
+}
+
+/* interiorDesign.module.css */
+.container {
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background: #f1f1f1;
+  font-size: 24px;
+}
+
+.tab.active {
+  background: #fff;
+  border-top: 2px solid #007bff;
+  font-weight: bold;
+  background: #000;
+  color: #fff;
+}
+
+.content {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background: #fff;
 }

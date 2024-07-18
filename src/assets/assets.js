@@ -82,7 +82,7 @@ export const assets = {
 	aboutUs2,
 }
 
-export const allInteriorDesign = [
+export const recidential = [
 	interiorDesign1,
 	interiorDesign2,
 	interiorDesign3,
@@ -101,6 +101,26 @@ export const allInteriorDesign = [
 	interiorDesign16,
 	interiorDesign17,
 	interiorDesign18,
+]
+export const commercial = [
+	interiorDesign16,
+	interiorDesign3,
+	interiorDesign4,
+	interiorDesign1,
+	interiorDesign5,
+	interiorDesign6,
+	interiorDesign14,
+	interiorDesign18,
+	interiorDesign2,
+	interiorDesign7,
+	interiorDesign11,
+	interiorDesign9,
+	interiorDesign10,
+	interiorDesign8,
+	interiorDesign12,
+	interiorDesign13,
+	interiorDesign15,
+	interiorDesign17,
 ]
 export const allExhibition = [
 	exhibitions1,
