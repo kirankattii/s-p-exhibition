@@ -58,6 +58,8 @@ import exhibitions17 from "./exhibition/exhibitions17.jpeg"
 import exhibitions18 from "./exhibition/exhibitions18.jpeg"
 import aboutUs from "./aboutus.jpg"
 import aboutUs2 from "./aboutus2.jpg"
+import homeLandingimage from "./landingimage.png"
+import landingMobile from "./landingMobile.png"
 
 export const assets = {
 	logo,
@@ -80,6 +82,8 @@ export const assets = {
 	exhibitionDesign2,
 	aboutUs,
 	aboutUs2,
+	homeLandingimage,
+	landingMobile,
 }
 
 export const recidential = [

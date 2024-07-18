@@ -7,7 +7,13 @@ const LandingPage = () => {
 	return (
 		<div className={styles.container}>
 			<img
-				src={assets.homeBanner}
+				className={styles.destop}
+				src={assets.homeLandingimage}
+				alt=""
+			/>{" "}
+			<img
+				className={styles.mobile}
+				src={assets.landingMobile}
 				alt=""
 			/>
 			<div className={styles.overlay}></div>{" "}
