@@ -13,6 +13,11 @@ import homeImg6 from "./homeimg6.jpeg"
 import homeImg7 from "./homeimg7.jpeg"
 import homeImg8 from "./homeimg8.jpeg"
 import homeImg9 from "./homeing9.jpeg"
+import homeImg10 from "./homeImg10.jpg"
+import homeImg11 from "./homeImg11.jpg"
+import homeImg12 from "./homeImg12.jpg"
+import homeImg13 from "./homeing13.jpeg"
+
 import mpsvideo from "./mps1.mp4"
 import logonobg from "./logowithoutbg.png"
 import contatbg from "./contactbg.jpg"
@@ -73,6 +78,9 @@ export const assets = {
 	homeImg7,
 	homeImg8,
 	homeImg9,
+	homeImg10,
+	homeImg11,
+	homeImg12,
 	mpsvideo,
 	logonobg,
 	contatbg,
@@ -84,6 +92,8 @@ export const assets = {
 	aboutUs2,
 	homeLandingimage,
 	landingMobile,
+	interiorDesign13,
+	homeImg13,
 }
 
 export const recidential = [

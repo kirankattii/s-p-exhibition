@@ -5,13 +5,18 @@ const About = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.aboutContainer}>
-				<img
+				{/* <img
 					src={assets.aboutUs}
 					alt=""
 					className={styles.img1}
-				/>{" "}
+				/> */}
 				<img
-					src={assets.aboutUs2}
+					src={assets.homeImg13}
+					alt=""
+					className={styles.img1}
+				/>
+				<img
+					src={assets.interiorDesign13}
 					alt=""
 					className={styles.img2}
 				/>

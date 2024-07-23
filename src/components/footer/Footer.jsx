@@ -47,7 +47,7 @@ const Footer = () => {
 						</div>
 					</li>
 					<li>
-						<address className={styles.footerheading}>Address</address>
+						<p className={styles.footerheading}>Address</p>
 						<p>
 							301, Building No-1, 3RD Floor, Kalpaka Apartment, Sidhart Nagar,{" "}
 							Goregaon(W), Mumbai-400062, Maharashtra, India
