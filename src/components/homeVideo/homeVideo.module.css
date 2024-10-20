@@ -67,7 +67,7 @@
 @media(max-width:1000px) {
   .overlayText {
     position: absolute;
-    top: 35%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -78,14 +78,22 @@
 
   .playIcon {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: white;
   }
 
+  .container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    margin-top: 70px;
+  }
 }
 
 
@@ -94,7 +102,6 @@
   .overlayText {
     width: 85%;
     position: absolute;
-    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -105,11 +112,10 @@
 
   .playIcon {
     position: absolute;
-    top: 60%;
-    left: 50%;
+
     transform: translate(-50%, -50%);
     cursor: pointer;
-    font-size: 5rem;
+    /* font-size: 5rem; */
     color: white;
   }
 

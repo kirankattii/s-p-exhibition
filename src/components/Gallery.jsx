@@ -8,7 +8,6 @@ import "lightgallery/css/lg-thumbnail.css"
 // import plugins if you need
 import lgThumbnail from "lightgallery/plugins/thumbnail"
 import lgZoom from "lightgallery/plugins/zoom"
-import { assets } from "../assets/assets"
 
 function Gallery({ images }) {
 	const onInit = () => {

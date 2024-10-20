@@ -13,7 +13,7 @@ const LandingPage = () => {
 			/>{" "}
 			<img
 				className={styles.mobile}
-				src={assets.landingMobile}
+				src={assets.exhibitions19}
 				alt=""
 			/>
 			<div className={styles.overlay}></div>{" "}

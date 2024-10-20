@@ -3,8 +3,10 @@ import styles from "./footer.module.css"
 import { FaFacebookF } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa6"
 import { FaLinkedinIn } from "react-icons/fa"
+import { Link, useNavigate } from "react-router-dom"
 
 const Footer = () => {
+	const navigate = useNavigate()
 	return (
 		<div className={styles.outerContainer}>
 			<div className={styles.container}>
@@ -15,13 +17,20 @@ const Footer = () => {
 					/>
 					<ul>
 						<li>
-							<FaFacebookF />
+							<Link to={""}>
+								{" "}
+								<FaFacebookF />
+							</Link>
 						</li>
 						<li>
-							<FaInstagram />
+							<Link to={"https://www.instagram.com/sp.exhibition/"}>
+								<FaInstagram />
+							</Link>
 						</li>
 						<li>
-							<FaLinkedinIn />
+							<Link to={"https://www.linkedin.com/in/hitesh-jain-516527133/"}>
+								<FaLinkedinIn />
+							</Link>
 						</li>
 					</ul>
 				</div>

@@ -61,6 +61,24 @@ import exhibitions15 from "./exhibition/exhibitions15.jpeg"
 import exhibitions16 from "./exhibition/exhibitions16.jpeg"
 import exhibitions17 from "./exhibition/exhibitions17.jpeg"
 import exhibitions18 from "./exhibition/exhibitions18.jpeg"
+import exhibitions19 from "./exhibition/exhibition19.jpg"
+import exhibitions20 from "./exhibition/exhibition20.jpg"
+import exhibitions21 from "./exhibition/exhibition21.jpg"
+import exhibitions22 from "./exhibition/exhibition22.jpg"
+import exhibitions23 from "./exhibition/exhibition23.jpg"
+import exhibitions24 from "./exhibition/exhibition24.jpg"
+import exhibitions25 from "./exhibition/exhibition25.jpg"
+import exhibitions26 from "./exhibition/exhibition26.jpg"
+import exhibitions27 from "./exhibition/exhibition27.jpg"
+import exhibitions28 from "./exhibition/exhibition28.jpg"
+import exhibitions29 from "./exhibition/exhibition29.jpg"
+import exhibitions30 from "./exhibition/exhibition30.jpeg"
+import exhibitions31 from "./exhibition/exhibition31.jpeg"
+import exhibitions32 from "./exhibition/exhibition32.jpeg"
+import exhibitions33 from "./exhibition/exhibition33.jpg"
+
+
+
 import aboutUs from "./aboutus.jpg"
 import aboutUs2 from "./aboutus2.jpg"
 import homeLandingimage from "./landingimage.png"
@@ -94,6 +112,8 @@ export const assets = {
 	landingMobile,
 	interiorDesign13,
 	homeImg13,
+	exhibitions19,
+	exhibitions30
 }
 
 export const recidential = [
@@ -155,6 +175,21 @@ export const allExhibition = [
 	exhibitions16,
 	exhibitions17,
 	exhibitions18,
+	exhibitions19,
+	exhibitions20,
+	exhibitions21,
+	exhibitions22,
+	exhibitions23,
+	exhibitions24,
+	exhibitions25,
+	exhibitions26,
+	exhibitions27,
+	exhibitions28,
+	exhibitions29,
+	exhibitions30,
+	exhibitions31,
+	exhibitions32,
+	exhibitions33,
 ]
 export const banner = [banner1, banner2, banner3, banner4]
 
