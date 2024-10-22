@@ -113,7 +113,8 @@ export const assets = {
 	interiorDesign13,
 	homeImg13,
 	exhibitions19,
-	exhibitions30
+	exhibitions30,
+	exhibitions33
 }
 
 export const recidential = [

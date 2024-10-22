@@ -38,7 +38,7 @@ const homeGrid = () => {
 					</div>
 					<div>
 						<img
-							src={assets.homeImg8}
+							src={assets.exhibitions33}
 							alt=""
 						/>
 						<div className={styles.hovereffect}>
