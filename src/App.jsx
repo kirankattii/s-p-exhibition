@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/home/Home"
 import Navbar from "./components/Navbar/Navbar"
@@ -12,6 +12,9 @@ import ExhibitionGallery from "./pages/exhibition/ExhibitionGallery.js/Exhibitio
 import ExhibitorDetail from "./pages/exhibition/ExhibitorDetail/ExhibitorDetail"
 
 const App = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	})
 	return (
 		<div>
 			<Navbar />
