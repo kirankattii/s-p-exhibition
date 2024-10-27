@@ -22,7 +22,7 @@ const Gallary = () => {
 						src={assets.exhibitionDesign}
 						alt=""
 					/>
-					<button onClick={() => navigate("/gallary/exhibitions")}>
+					<button onClick={() => navigate("/gallary/exhibitiongallery")}>
 						Exhibitions
 					</button>
 				</div>

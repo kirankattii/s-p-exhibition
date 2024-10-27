@@ -76,6 +76,32 @@ import exhibitions30 from "./exhibition/exhibition30.jpeg"
 import exhibitions31 from "./exhibition/exhibition31.jpeg"
 import exhibitions32 from "./exhibition/exhibition32.jpeg"
 import exhibitions33 from "./exhibition/exhibition33.jpg"
+import exhibition34 from './exhibition/exhibition34.jpeg'
+import exhibitions35 from './exhibition/exhibitions35.jpeg'
+import exhibition36 from './exhibition/exhibition36.jpeg'
+import exhibitions37 from './exhibition/exhibitions37.jpeg'
+import exhibition38 from './exhibition/exhibition38.jpeg'
+import exhibition39 from './exhibition/exhibition39.jpeg'
+import exhibition40 from './exhibition/exhibition40.jpeg'
+import exhibition41 from './exhibition/exhibition41.jpeg'
+import exhibition42 from './exhibition/exhibition42.jpeg'
+import exhibition43 from './exhibition/exhibition43.jpeg'
+import exhibition44 from './exhibition/exhibition44.jpeg'
+import exhibition45 from './exhibition/exhibition45.jpeg'
+import exhibition46 from './exhibition/exhibition46.jpeg'
+import exhibition47 from './exhibition/exhibition47.jpeg'
+import exhibition48 from './exhibition/exhibition48.jpeg'
+import exhibition49 from './exhibition/exhibition49.jpeg'
+import exhibition50 from './exhibition/exhibition50.jpeg'
+import exhibition51 from './exhibition/exhibition51.jpeg'
+import exhibition52 from './exhibition/exhibition52.jpeg'
+import exhibiton53 from './exhibition/exhibition53.jpeg'
+import exhibition54 from './exhibition/exhibition54.jpeg'
+import exhibition55 from './exhibition/exhibition55.jpeg'
+import exhibition56 from './exhibition/exhibiti6on56.jpeg'
+import exhibition57 from './exhibition/exhibition57.jpeg'
+import exhibition58 from './exhibition/exhibition58.jpeg'
+import exhibition59 from './exhibition/exhibition59.jpeg'
 
 
 
@@ -191,6 +217,14 @@ export const allExhibition = [
 	exhibitions31,
 	exhibitions32,
 	exhibitions33,
+	exhibition34,
+	exhibitions35,
+	exhibition36,
+	exhibitions37,
+	exhibition38,
+	exhibition39,
+	exhibition40,
+	exhibition41, exhibition42, exhibition43, exhibition44, exhibition45, exhibition46, exhibition47, exhibition48, exhibition49, exhibition50, exhibition52, exhibiton53, exhibition56, exhibition57
 ]
 export const banner = [banner1, banner2, banner3, banner4]
 
@@ -244,6 +278,7 @@ import logo30 from "./logo/logo30.png"
 import logo31 from "./logo/logo31.png"
 import logo32 from "./logo/logo32.png"
 import logo33 from "./logo/logo33.png"
+import logo34 from "./logo/nora web-1.png"
 
 export const logos1 = [logo1, logo2, logo3, logo4, logo5, logo6, logo7]
 
@@ -280,4 +315,187 @@ export const logos4 = [
 	logo31,
 	logo32,
 	logo33,
+]
+
+
+export const exhibitionGallery = [
+	{
+		name: "Raj Jewellers",
+		logo: logo2,
+		images: [
+			exhibitions4,
+			exhibition34,
+			exhibitions13,
+			exhibitions35,
+			exhibition41
+		]
+	},
+	{
+		name: "Gajraj Jewellers",
+		logo: logo16,
+		images: [
+			exhibitions19,
+			exhibitions20,
+			exhibitions9,
+			exhibitions11,
+			exhibition36,
+			exhibitions37,
+			exhibition38
+		]
+	},
+	{
+		name: "Nirmal Jewellers",
+		logo: logo20,
+		images: [
+			exhibitions2,
+			exhibition39,
+			exhibition40,
+			homeImg10
+		]
+	},
+	{
+		name: "MP Swarna Mahal",
+		logo: logo21,
+		images: [
+			exhibition43,
+			exhibition42,
+			exhibitions32,
+			exhibition44,
+		]
+	},
+	{
+		name: "Aabushan",
+		logo: "",
+		images: [
+			exhibition46,
+			exhibitions18,
+			exhibitions27,
+			exhibitions25,
+			exhibitions31,
+			exhibitions10,
+			exhibition47
+		]
+	},
+	{
+		name: "Navrathan",
+		logo: logo10,
+		images: [
+			exhibitions21,
+			exhibitions23,
+			exhibitions28,
+			exhibition55
+		]
+	},
+
+	{
+		name: "Simha Jewellers",
+		logo: logo3,
+		images: [
+			exhibitions33,
+			exhibition54
+		]
+	},
+
+	{
+		name: "Matushree Gold",
+		logo: logo12,
+		images: [
+			exhibition36,
+			exhibition50
+		]
+
+	},
+	//  {
+	// 	name: "MangalDeep",
+	// 	logo: logo18,
+	// 	images: []
+	// },
+
+
+	// {
+	// 	name: "Saanchi",
+	// 	logo: logo9,
+	// 	images: []
+	// },
+
+	// {
+	// 	name: "Nagarakar jewellers",
+	// 	logo: logo5,
+	// 	images: []
+	// },
+	{
+		name: "Anand Jewels & Diamonds",
+		logo: "",
+		images: [
+			exhibition48,
+			exhibition49
+		]
+	},
+	{
+		name: "Ananya Jewels",
+		logo: "",
+		images: [
+			exhibitions22,
+			exhibitions29
+		]
+	},
+
+	{
+		name: "Anmolswarn",
+		logo: logo31,
+		images: [
+			exhibition47,
+			exhibiton53
+		]
+	},
+	{
+		name: "Swarn Shilp",
+		logo: logo6,
+		images: [
+			exhibition56,
+			exhibition57
+		]
+	}, {
+		name: "Harit Zaveri",
+		logo: logo33,
+		images: [
+			exhibition58,
+			exhibition59
+		]
+	},
+	{
+		name: "Nora",
+		logo: logo34,
+		images: [
+			exhibition51
+		]
+	},
+	{
+		name: "Royal Chains Pvt. Ltd.",
+		logo: logo22,
+		images: [
+			exhibition52
+		]
+	},
+	{
+		name: "Sri Ganesh",
+		logo: logo24,
+		images: [
+			exhibitions17
+		]
+	},
+	{
+		name: "Manyata Jewellers",
+		logo: logo25,
+		images: [
+			exhibition45
+		]
+	},
+	{
+		name: "Jewel Park",
+		logo: logo26,
+		images: [
+			exhibitions1
+		]
+	},
 ]

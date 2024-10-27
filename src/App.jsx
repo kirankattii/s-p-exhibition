@@ -8,6 +8,8 @@ import Gallary from "./pages/gallary/Gallary"
 import InteriorDesign from "./pages/interiorDesign/InteriorDesign"
 import Exhibition from "./pages/exhibition/exhibition"
 import About from "./pages/about/About"
+import ExhibitionGallery from "./pages/exhibition/ExhibitionGallery.js/ExhibitionGallery"
+import ExhibitorDetail from "./pages/exhibition/ExhibitorDetail/ExhibitorDetail"
 
 const App = () => {
 	return (
@@ -39,6 +41,11 @@ const App = () => {
 						path="/gallary/exhibitions"
 						element={<Exhibition />}
 					/>
+					<Route
+						path="/gallary/exhibitiongallery"
+						element={<ExhibitionGallery />}
+					/>
+					<Route path="/exhibitor/:name" element={<ExhibitorDetail />} />
 				</Routes>
 			</div>
 			<Footer />
