@@ -10,6 +10,7 @@ import Exhibition from "./pages/exhibition/exhibition"
 import About from "./pages/about/About"
 import ExhibitionGallery from "./pages/exhibition/ExhibitionGallery.js/ExhibitionGallery"
 import ExhibitorDetail from "./pages/exhibition/ExhibitorDetail/ExhibitorDetail"
+import CommingSoon from "./pages/commingSoon/CommingSoon"
 
 const App = () => {
 	useEffect(() => {
@@ -47,6 +48,10 @@ const App = () => {
 					<Route
 						path="/gallary/exhibitiongallery"
 						element={<ExhibitionGallery />}
+					/>
+					<Route
+						path="/comming-soon"
+						element={<CommingSoon />}
 					/>
 					<Route path="/exhibitor/:name" element={<ExhibitorDetail />} />
 				</Routes>

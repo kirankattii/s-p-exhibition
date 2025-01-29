@@ -499,3 +499,66 @@ export const exhibitionGallery = [
 		]
 	},
 ]
+
+
+
+
+
+import comming1 from './comming/comming1.jpeg'
+import comming2 from './comming/comming2.jpeg'
+import comming3 from './comming/comming3.jpeg'
+import comming4 from './comming/comming4.jpeg'
+import comming5 from './comming/comming5.jpeg'
+import comming6 from './comming/comming6.jpeg'
+import comming7 from './comming/comming7.jpeg'
+import comming8 from './comming/comming8.jpeg'
+import comming9 from './comming/comming9.jpeg'
+import comming10 from './comming/comming10.jpeg'
+import comming11 from './comming/comming11.jpeg'
+
+export const comming = [
+	{
+		img: comming1,
+		name: "Aabushan"
+	},
+	{
+		img: comming2,
+		name: "Swarn Shilp"
+	},
+	{
+		img: comming3,
+		name: "Royal Chains Pvt.Ltd"
+	},
+	{
+		img: comming4,
+		name: "Sri Ganesh"
+	},
+	{
+		img: comming5,
+		name: "GajRaj"
+	},
+	{
+		img: comming6,
+		name: "HARITZAVERI"
+	},
+	{
+		img: comming7,
+		name: "GajRaj"
+	},
+	{
+		img: comming8,
+		name: "JC Jewellers"
+	},
+	{
+		img: comming9,
+		name: "Simha"
+	},
+	{
+		img: comming10,
+		name: "Aabushan"
+	},
+	{
+		img: comming11,
+		name: "Navrathan & Sons Pvt.Ltd"
+	},
+]

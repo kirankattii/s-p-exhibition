@@ -20,6 +20,10 @@ const navItems = [
 		title: "Gallery",
 		href: "/gallary",
 	},
+	{
+		title: "Comming Soon",
+		href: "/comming-soon",
+	},
 
 	{
 		title: "Contact Us",

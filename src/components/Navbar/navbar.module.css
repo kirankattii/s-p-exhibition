@@ -4,7 +4,7 @@
   display: flex;
   font-family: 'FuturaLight';
   font-family: 'Gotham';
-  justify-content: center;
+  /* justify-content: center; */
   z-index: 10;
   background: #fff;
 }
@@ -12,7 +12,10 @@
 .container nav {
   margin: auto;
   z-index: 10;
-
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
 }
 
 .container nav ul {
@@ -20,7 +23,8 @@
   letter-spacing: normal;
   list-style: none;
   align-items: center;
-  gap: 100px;
+  gap: 70px;
+  margin-top: 15px;
 
 }
 
@@ -30,8 +34,9 @@
   color: #4C4C4C;
 }
 
-.container nav ul img {
-  width: 120px;
+.container nav img {
+  width: 100px;
+  margin-top: 10px;
 }
 
 .mediaNav {

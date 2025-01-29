@@ -7,6 +7,10 @@ const Navbar = () => {
 	return (
 		<div className={styles.container}>
 			<nav>
+				<img
+					src={assets.logo}
+					alt=""
+				/>
 				<ul>
 					<li>
 						<Link to={"/"}>HOME</Link>
@@ -14,14 +18,12 @@ const Navbar = () => {
 					<li>
 						<Link to={"/about-us"}>ABOUT</Link>
 					</li>
-					<li>
-						<img
-							src={assets.logo}
-							alt=""
-						/>
-					</li>
+
 					<li>
 						<Link to={"/gallary"}>GALLERY</Link>
+					</li>
+					<li>
+						<Link to={"/comming-soon"}>COMMING SOON</Link>
 					</li>
 					<li>
 						<Link to={"/contact"}>CONTACT</Link>
